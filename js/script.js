@@ -4,6 +4,16 @@ const menu = document.querySelector(".menu");
 
 menuButton.addEventListener("click", () => {
   menu.classList.toggle("open");
+
+  const isOpen = menu.classList.contains("open");
+  menuButton.setAttribute("aria-expanded", isOpen);
+});
+
+menu.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("open");
+    menuButton.setAttribute("aria-expanded", "false");
+  });
 });
 
 // Animation simple au scroll

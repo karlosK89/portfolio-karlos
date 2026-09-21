@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#8f5866"/>
+  <rect x="88" y="90" width="1024" height="495" rx="32" fill="white" opacity="0.94"/>
+  <circle cx="160" cy="160" r="18" fill="#8f5866" opacity="0.9"/>
+  <circle cx="210" cy="160" r="18" fill="#8f5866" opacity="0.55"/>
+  <circle cx="260" cy="160" r="18" fill="#8f5866" opacity="0.3"/>
+  <text x="150" y="300" font-family="Arial, sans-serif" font-size="66" font-weight="700" fill="#172033">ULB</text>
+  <text x="150" y="380" font-family="Arial, sans-serif" font-size="32" fill="#667085">Laravel · PHP · MariaDB</text>
+  <text x="150" y="475" font-family="Arial, sans-serif" font-size="24" fill="#98a2b3">Illustration de portfolio — pas une capture du projet original</text>
+</svg>
