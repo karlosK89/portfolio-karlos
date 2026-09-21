@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#eef7f0"/>
+<rect x="100" y="70" width="1000" height="580" rx="28" fill="#fff" stroke="#dbe9de" stroke-width="3"/>
+<rect x="100" y="70" width="1000" height="70" rx="28" fill="#fff"/>
+<circle cx="150" cy="105" r="10" fill="#86a98e"/>
+<circle cx="185" cy="105" r="10" fill="#aac5b0"/>
+<circle cx="220" cy="105" r="10" fill="#d0dfd3"/>
+<text x="170" y="240" font-family="Arial" font-size="28" fill="#78907d">WORDPRESS / ELEMENTOR</text>
+<text x="170" y="315" font-family="Arial" font-size="66" font-weight="700" fill="#24372a">Respirer. Bouger.</text>
+<text x="170" y="375" font-family="Arial" font-size="66" font-weight="700" fill="#24372a">Se recentrer.</text>
+<rect x="170" y="430" width="220" height="58" rx="29" fill="#78907d"/>
+<text x="222" y="467" font-family="Arial" font-size="20" fill="#fff">Découvrir</text>
+<circle cx="865" cy="350" r="145" fill="#d9eadc"/>
+<path d="M810 435 C860 350, 900 270, 925 220" fill="none" stroke="#78907d" stroke-width="18" stroke-linecap="round"/>
+<text x="170" y="585" font-family="Arial" font-size="20" fill="#84958a">Reconstitution visuelle du projet</text>
+</svg>

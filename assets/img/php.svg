@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#eef2ff"/>
+<rect x="90" y="70" width="1020" height="580" rx="25" fill="#fff" stroke="#d8def4" stroke-width="3"/>
+<rect x="90" y="70" width="1020" height="75" rx="25" fill="#172033"/>
+<circle cx="140" cy="108" r="10" fill="#64748b"/>
+<circle cx="175" cy="108" r="10" fill="#64748b"/>
+<circle cx="210" cy="108" r="10" fill="#64748b"/>
+<rect x="140" y="200" width="610" height="54" rx="8" fill="#f1f5f9"/>
+<rect x="140" y="282" width="360" height="250" rx="16" fill="#eef2ff"/>
+<rect x="530" y="282" width="500" height="36" rx="8" fill="#dbe3f4"/>
+<rect x="530" y="340" width="430" height="22" rx="8" fill="#e8edf6"/>
+<rect x="530" y="385" width="475" height="22" rx="8" fill="#e8edf6"/>
+<rect x="530" y="450" width="170" height="48" rx="24" fill="#5570b7"/>
+<text x="140" y="585" font-family="Arial" font-size="20" fill="#77829c">PHP · Bootstrap · Site multi-pages</text>
+<text x="830" y="118" font-family="Arial" font-size="20" fill="#cbd5e1">Reconstitution visuelle</text>
+</svg>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Karlos, développeur web PHP, WordPress et JavaScript.">
+  <title>Karlos | Développeur web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#accueil" class="logo">Karlos<span>.</span></a>
+
+      <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+
+      <nav class="menu">
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Accueil -->
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+
+        <div class="hero-text reveal">
+          <p class="small-title">PORTFOLIO DÉVELOPPEMENT WEB</p>
+
+          <h1>
+            Je transforme des idées en
+            <span>interfaces web.</span>
+          </h1>
+
+          <p class="intro">
+            Développeur web formé à PHP, WordPress, JavaScript et aux bases de données.
+            J'aime comprendre comment une application fonctionne, résoudre des problèmes
+            et construire des interfaces simples et efficaces.
+          </p>
+
+          <div class="buttons">
+            <a href="#projets" class="btn btn-main">Voir mes projets</a>
+            <a href="#contact" class="btn btn-light">Me contacter</a>
+          </div>
+
+          <div class="quick-skills">
+            <span>PHP</span>
+            <span>WordPress</span>
+            <span>JavaScript</span>
+            <span>Laravel</span>
+            <span>SQL</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="code-window">
+            <div class="window-top">
+              <span></span><span></span><span></span>
+            </div>
+
+            <pre><code><span class="code-blue">&lt;section</span> class=<span class="code-green">"portfolio"</span><span class="code-blue">&gt;</span>
+  <span class="code-blue">&lt;h1&gt;</span>Bonjour 👋<span class="code-blue">&lt;/h1&gt;</span>
+
+  <span class="code-blue">&lt;p&gt;</span>
+    Je construis,
+    j'apprends,
+    je progresse.
+  <span class="code-blue">&lt;/p&gt;</span>
+<span class="code-blue">&lt;/section&gt;</span></code></pre>
+          </div>
+
+          <div class="floating-card card-one">HTML / CSS</div>
+          <div class="floating-card card-two">PHP</div>
+          <div class="floating-card card-three">JavaScript</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="section" id="projets">
+      <div class="container">
+
+        <div class="section-title reveal">
+          <p class="small-title">MES RÉALISATIONS</p>
+          <h2>Quelques projets de mon parcours</h2>
+          <p>
+            Les anciens fichiers de certains projets ne sont plus disponibles.
+            Les visuels ci-dessous sont donc des reconstitutions graphiques,
+            tandis que les descriptions correspondent au travail réellement réalisé.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Projet 1 -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="assets/img/yoga.svg" alt="Reconstitution visuelle du site Yoga">
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">01 · WORDPRESS</p>
+              <h3>Site Yoga</h3>
+              <p>
+                Création et intégration d'un site sous WordPress avec Elementor,
+                travail sur la structure des pages et le responsive.
+              </p>
+
+              <div class="tags">
+                <span>WordPress</span>
+                <span>Elementor</span>
+                <span>CSS</span>
+              </div>
+
+              <details>
+                <summary>Voir les détails</summary>
+                <ul>
+                  <li>Création et organisation des pages.</li>
+                  <li>Intégration du contenu avec Elementor.</li>
+                  <li>Adaptation mobile et tablette.</li>
+                  <li>Personnalisation CSS lorsque nécessaire.</li>
+                </ul>
+              </details>
+            </div>
+          </article>
+
+          <!-- Projet 2 -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="assets/img/php.svg" alt="Reconstitution visuelle du projet PHP">
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">02 · PHP</p>
+              <h3>Site web dynamique</h3>
+              <p>
+                Développement d'un site multi-pages en PHP avec Bootstrap
+                et une structure de contenu dynamique.
+              </p>
+
+              <div class="tags">
+                <span>PHP</span>
+                <span>Bootstrap</span>
+                <span>HTML</span>
+              </div>
+
+              <details>
+                <summary>Voir les détails</summary>
+                <ul>
+                  <li>Création d'une structure multi-pages.</li>
+                  <li>Navigation entre les différentes sections.</li>
+                  <li>Utilisation de PHP pour organiser le contenu.</li>
+                  <li>Interface responsive avec Bootstrap.</li>
+                </ul>
+              </details>
+            </div>
+          </article>
+
+          <!-- Projet 3 -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="assets/img/meteo.svg" alt="Reconstitution visuelle de l'application météo">
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">03 · JAVASCRIPT</p>
+              <h3>Application météo</h3>
+              <p>
+                Récupération et affichage dynamique de données météo
+                avec JavaScript, AJAX et JSON.
+              </p>
+
+              <div class="tags">
+                <span>JavaScript</span>
+                <span>AJAX</span>
+                <span>JSON</span>
+              </div>
+
+              <details>
+                <summary>Voir les détails</summary>
+                <ul>
+                  <li>Requêtes AJAX sans rechargement de page.</li>
+                  <li>Manipulation de données JSON.</li>
+                  <li>Affichage dynamique des résultats.</li>
+                  <li>Travail sur les interactions utilisateur.</li>
+                </ul>
+              </details>
+            </div>
+          </article>
+
+          <!-- Projet 4 -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="assets/img/ulb.svg" alt="Illustration de l'expérience backend à l'ULB">
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">04 · EXPÉRIENCE PROFESSIONNELLE</p>
+              <h3>ULB — Faculté de Pharmacie</h3>
+              <p>
+                Travail sur une application Laravel existante :
+                backend, données, vues Blade et résolution de problèmes.
+              </p>
+
+              <div class="tags">
+                <span>Laravel</span>
+                <span>PHP</span>
+                <span>MariaDB</span>
+              </div>
+
+              <details>
+                <summary>Voir les détails</summary>
+                <ul>
+                  <li>Travail sur une application Laravel existante.</li>
+                  <li>Récupération et affichage de données.</li>
+                  <li>Adaptation de vues Blade.</li>
+                  <li>Gestion d'images et de fichiers.</li>
+                  <li>Résolution de problèmes liés au déploiement.</li>
+                </ul>
+              </details>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section class="section skills-section" id="competences">
+      <div class="container">
+
+        <div class="section-title reveal">
+          <p class="small-title">COMPÉTENCES</p>
+          <h2>Les outils que j'ai appris à utiliser</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-box reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Frontend</h3>
+            <p>HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery et responsive design.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <div class="skill-icon">{ }</div>
+            <h3>Backend</h3>
+            <p>PHP, bases de Laravel, formulaires, logique applicative et contenu dynamique.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <div class="skill-icon">DB</div>
+            <h3>Données</h3>
+            <p>MySQL, MariaDB, JSON, manipulation de données et requêtes AJAX.</p>
+          </div>
+
+          <div class="skill-box reveal">
+            <div class="skill-icon">WP</div>
+            <h3>CMS & outils</h3>
+            <p>WordPress, Elementor, Git, GitHub et environnement de développement local.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Parcours -->
+    <section class="section" id="parcours">
+      <div class="container">
+
+        <div class="section-title reveal">
+          <p class="small-title">MON PARCOURS</p>
+          <h2>Apprendre en construisant</h2>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="timeline-date">Formation</p>
+              <h3>Développement web</h3>
+              <p>
+                Apprentissage du frontend et du backend :
+                HTML, CSS, JavaScript, PHP, WordPress, SQL et Git.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="timeline-date">Expérience pratique</p>
+              <h3>ULB — Faculté de Pharmacie</h3>
+              <p>
+                Mise en pratique sur une application existante en PHP / Laravel,
+                avec travail sur les données et résolution de problèmes.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box reveal">
+
+        <div>
+          <p class="small-title">CONTACT</p>
+          <h2>Un projet ou une opportunité ?</h2>
+          <p>
+            Je suis ouvert aux échanges autour du développement web
+            et aux opportunités qui me permettront de continuer à progresser.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="#" title="À remplacer par ton e-mail">E-mail</a>
+          <a href="#" title="À remplacer par ton LinkedIn">LinkedIn</a>
+          <a href="#" title="À remplacer par ton GitHub">GitHub</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Karlos</p>
+      <a href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
