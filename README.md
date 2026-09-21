@@ -31,6 +31,7 @@ https://karlosk89.github.io/portfolio-karlos/
 ## Contact
 
 - E-mail : karlos.zaghbour@hotmail.com
+- LinkedIn : https://www.linkedin.com/in/karlos-zaghbour-1871533a5
 - GitHub : https://github.com/karlosK89
 
 Les visuels de certains anciens projets sont des reconstitutions graphiques destinées à illustrer les réalisations présentées.
